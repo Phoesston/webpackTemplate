@@ -1,7 +1,7 @@
 {
-  "name": "weather",
+  "name": "webpacktemplate",
   "version": "1.0.0",
-  "description": "weatherApp",
+  "description": "template for webpack",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -11,19 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Phoesston/weather.git"
+    "url": "git+https://github.com/Phoesston/webpackTemplate.git"
   },
   "author": "Phoesston",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Phoesston/weather/issues"
+    "url": "https://github.com/Phoesston/webpackTemplate/issues"
   },
-  "homepage": "https://Phoesston.github.io/weather/",
+  "homepage": "https://Phoesston.github.io/webpackTemplate/",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "gh-pages": "^6.3.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.3",
+    "jest": "^30.2.0",
     "style-loader": "^4.0.0",
     "webpack": "^5.99.7",
     "webpack-cli": "^6.0.1",
